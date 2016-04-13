@@ -1,0 +1,23 @@
+Subject: Sent from Jenkins using sendmail
+
+echo `date`
+
+this is line 1
+this is line 2
+this is line 3
+
+end of test message
+
+# The current build number, such as "153"
+BUILD_NUMBER
+
+# The current build ID, identical to BUILD_NUMBER for builds created in 1.597+, but a YYYY-MM-DD_hh-mm-ss timestamp for older builds
+BUILD_ID
+
+# The display name of the current build, which is something like "#153" by default.
+BUILD_DISPLAY_NAME
+
+# Name of the project of this build, such as "foo" or "foo/bar". (To strip off folder paths from a Bourne shell script, try: ${JOB_NAME##*/})
+JOB_NAME
+
+end of test message
